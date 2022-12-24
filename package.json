@@ -1,18 +1,24 @@
 {
-  "name": "board",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.5.4"
-  },
-  "description": "",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+    "name": "board",
+    "version": "1.0.0",
+    "main": "app.js",
+    "engines": {
+        "node": "18.12.1",
+        "npm": "8.19.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.5.4"
+    },
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
